@@ -1,0 +1,22 @@
+Package: univariate
+Type: Package
+Title: Modeled vs Actual Visualization
+Version: 0.3
+Date: 2015-05-29
+Authors@R: person("Michael", "Wilcox", email = "mwilcox@loandepot.com",
+                  role = c("aut", "cre"))
+Description: A function to generate a ggplot graph object comparing Actual
+  and Predicted values over an aggregating variable. Plotted over either a
+  histogram or probability distribution function, depending on if the aggregating
+  variable is discrete or continuous. Useful for validating models over train/test
+  data.
+Depends: R (>= 3.2.0)
+License: file LICENSE
+LazyData: TRUE
+Imports: dplyr,
+    ggplot2,
+    grid,
+    gridExtra,
+    lazyeval,
+    plyr
+RoxygenNote: 6.0.1
