@@ -158,9 +158,9 @@ univariate <- function(frame, groupvar, actual, model, grouprange=NULL,
   maxWidth <- unit.pmax(gp1$widths[2:5], gp2$widths[2:5])
   gp1$widths[2:5] <- as.list(maxWidth)
   gp2$widths[2:5] <- as.list(maxWidth)
-  result <- arrangeGrob(gp1, gp2, nrow = 2, heights = c(4, 1))
+  # result <- arrangeGrob(gp1, gp2, nrow = 2, heights = c(4, 1))
 
   grid.arrange(gp1, gp2, nrow = 2, heights = c(4, 1))
-  return(result)
+  # return(result)
 }
 
