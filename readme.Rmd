@@ -88,4 +88,7 @@ univariate(df, "occupation", "HighIncomeFlag", "predict",
            labelangle = 20, titlestring = "Univariate Plot with 20-Degree Labels")
 ```
 
+## Additional Information
 
+#### Example Dataset
+Th data used in this ReadMe came from the [Adult Data Set](https://archive.ics.uci.edu/ml/datasets/adult) in the UCI Machince Learning Repository, accessed on April 2019.

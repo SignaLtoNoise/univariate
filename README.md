@@ -91,7 +91,7 @@ By default, the entire range of `groupvar` will be plotted. For factor
 variables, `grouprange` selects the values along the X-Axis
 corresponding to the range.
 
-### Custom Title, Label Angles
+### Custom Title and Label Angles
 
 Univariate will create a default title, but you can replace it by
 feeding a string to the `titlestring` argument.
@@ -105,3 +105,11 @@ univariate(df, "occupation", "HighIncomeFlag", "predict",
 ```
 
 ![](readme_files/figure-gfm/example%20title%20angle-1.png)<!-- -->
+
+## Additional Information
+
+#### Example Dataset
+
+Th data used in this ReadMe came from the [Adult Data
+Set](https://archive.ics.uci.edu/ml/datasets/adult) in the UCI Machince
+Learning Repository, accessed on April 2019.
