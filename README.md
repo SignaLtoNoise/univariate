@@ -64,7 +64,7 @@ univariate(df, "sex", "HighIncomeFlag", "predict")
 On continuous variables, it is sometimes necessary to create rounded
 values to make a more comprehensible plot. The `roundvalue` argument
 sets the accuracy to round to. The `roundfunc` argument defaults to
-“round”, but can be additionally set to “floor” or
+“round”, but can be alternatively set to “floor” or
 “ceiling”.
 
 ``` r
@@ -93,7 +93,7 @@ corresponding to the range.
 
 ### Custom Title and Label Angles
 
-Univariate will create a default title, but you can replace it by
+`univariate()` will create a default title, but you can replace it by
 feeding a string to the `titlestring` argument.
 
 If there are many factor variables, you can specify a degree to angle
@@ -110,6 +110,6 @@ univariate(df, "occupation", "HighIncomeFlag", "predict",
 
 #### Example Dataset
 
-Th data used in this ReadMe came from the [Adult Data
+The data used in this ReadMe came from the [Adult Data
 Set](https://archive.ics.uci.edu/ml/datasets/adult) in the UCI Machince
 Learning Repository, accessed on April 2019.
